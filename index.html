@@ -1,0 +1,45 @@
+
+
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+<title>BigTime | Client</title>
+
+<script src="static/js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="static/css/main.css">
+<script>
+ function LoadApplication ()
+ {
+	LoadBigtimeUsingGitHub ();
+	// LoadBigtimeUsingRaspberry ();
+ }
+ 
+</script>
+</head>
+
+<body class="main_body" onload="LoadApplication ()" ononline="LoadApplication ()" >
+<div id="main-header">
+	<div  id= "Navigetion" class=" header">
+		<div id="NaviDivHeader">
+			<span class="navigetion-icone-flower" >&#9781;</span>
+		</div>
+	</div>	
+
+	<div id="alert-box-display-area"></div>
+	<div id="alert-box">
+		<div>
+			<div id="alert-box-header"></div>
+			<div id="alert-box-body"></div>
+			<div id="alert-box-footer"></div>
+		</div>
+	</div>
+
+
+	
+	<center>
+		<br><br>
+		<div id="offline-label-div"></div>
+	</center>
+
+</body>
+</html>
